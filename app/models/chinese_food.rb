@@ -1,3 +1,3 @@
-class ChineseFood < ActiveRecord::Base
-  has_many :foods
+class ChineseFood < Food
+
 end
