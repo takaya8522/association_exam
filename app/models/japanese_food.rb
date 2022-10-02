@@ -1,3 +1,3 @@
 class JapaneseFood < ActiveRecord::Base
-  belongs_to :foods
+  belongs_to :category
 end

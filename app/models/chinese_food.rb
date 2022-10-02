@@ -1,3 +1,3 @@
 class ChineseFood < ActiveRecord::Base
-  belongs_to :foods
+  belongs_to :category
 end
