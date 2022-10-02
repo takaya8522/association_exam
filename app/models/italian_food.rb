@@ -1,3 +1,3 @@
 class ItalianFood < ActiveRecord::Base
-  belongs_to :category
+  has_many :foods
 end
